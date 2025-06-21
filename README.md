@@ -55,3 +55,9 @@ This project includes a custom Python-based pipeline that pulls fresh books and 
 - Google Books API
 - Amazon PA-API (affiliate links)
 - Enterprise Knowledge Graph (for enrichment)
+
+---
+
+## Download on iOS
+- https://apps.apple.com/us/app/bookkeeps/id6670183504
+
