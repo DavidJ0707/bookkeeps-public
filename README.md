@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/bookkeeps-logo.png" alt="Bookkeeps Logo" width="200"/>
+</p>
+
 # 📚 Bookkeeps
 
 **Bookkeeps** is a personalized iOS app that helps readers discover and track upcoming book releases based on their favorite genres and authors. Whether you're into fantasy, thrillers, romance, or non-fiction, Bookkeeps keeps your reading list fresh and relevant.
