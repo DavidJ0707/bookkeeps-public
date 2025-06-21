@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/bookkeeps-logo.png" alt="Bookkeeps Logo" width="200"/>
+  <img src="assets/icon.png" alt="Bookkeeps Logo" width="200"/>
 </p>
 
 # 📚 Bookkeeps
