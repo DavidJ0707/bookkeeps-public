@@ -1,27 +1,59 @@
 {
   "expo": {
     "name": "Bookkeeps",
-    "slug": "Bookkeeps",
-    "version": "1.0.0",
+    "slug": "bookkeeps",
+    "version": "1.1.0",
+    "sdkVersion": "52.0.0",
+    "newArchEnabled": true,
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#FAFAFA"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.davidj0707.bookkeeps",
+      "buildNumber": "18",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "aps-environment": "development"
+      },
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": [
+          "amzn",
+          "https",
+          "http"
+        ],
+        "LSMinimumSystemVersion": "12.0",
+        "NSAppTransportSecurity": {
+          "NSExceptionDomains": {
+            "amazon.com": {
+              "NSIncludesSubdomains": true,
+              "NSThirdPartyExceptionAllowsInsecureHTTPLoads": true
+            }
+          }
+        },
+        "NSUserNotificationUsageDescription": "This app uses notifications to keep you informed about new book releases."
+      },
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FAFAFA"
+      },
+      "package": "com.davidj0707.bookkeeps",
+      "runtimeVersion": "1.3.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -30,6 +62,12 @@
       "eas": {
         "projectId": "93f0e4ac-5126-493b-baae-07dfa28bba91"
       }
-    }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/93f0e4ac-5126-493b-baae-07dfa28bba91"
+    },
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
