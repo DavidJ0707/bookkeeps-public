@@ -10,22 +10,22 @@
 
 ## 🚀 Features
 
-- 🔍 Smart book discovery
+- Smart book discovery
   - Recommendations based on favorited authors, genres, and themes
   - Powered by MongoDB Atlas Search
 
-- 📅 Release tracking
+- Release tracking
   - View books coming out *this week*, *this month*, or already released
   - Easily browse curated categories
 
-- ❤️ Personalized profiles
+- Personalized profiles
   - Favorite authors and genres
   - Receive dynamic recommendations and notifications
 
-- 🔔 Push notifications
+- Push notifications
   - Get notified when your favorite books are released
 
-- 🛒 Purchase integration
+- Purchase integration
   - Affiliate links for buying books via Amazon
 
 ---
